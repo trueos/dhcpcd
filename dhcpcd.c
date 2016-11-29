@@ -1555,6 +1555,7 @@ main(int argc, char **argv)
 	ctx.ifc = argc - optind;
 	ctx.ifv = argv + optind;
 
+	logger(&ctx, LOG_INFO, "using config file `%s'", ctx.cffile);
 	ifo = read_config(&ctx, NULL, NULL, NULL);
 	if (ifo == NULL) {
 		if (ctx.options & DHCPCD_PRINT_PIDFILE)
