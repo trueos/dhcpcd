@@ -6,7 +6,7 @@ Copyright (c) 2006-2016 Roy Marples <roy@marples.name>
 - [Installation](#installation)
 - [Notes](#notes)
 - [Hooks](#hooks)
-- [Compatability](#compatability)
+- [Compatibility](#compatibility)
 - [Upgrading](#upgrading)
 - [Changelog](#changelog)
 
